@@ -23,7 +23,7 @@ use tikv_jemallocator::Jemalloc;
 static GLOBAL: Jemalloc = Jemalloc;
 
 const GTFS_URL: &str = "https://www.rejseplanen.info/labs/GTFS.zip";
-const SIRI_URL: &str = "https://jbb.ghsq.de/siri/danmark";
+const SIRI_URL: &str = "http://gtfs.spline.de/siri/danmark/estimated-timetable.xml";
 
 #[tokio::main]
 async fn main() -> Result<()> {
